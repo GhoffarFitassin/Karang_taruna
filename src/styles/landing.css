@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@600&display=swap");
+
+:root {
+  --color-primary: #033051;
+  --color-accent: #f3b448;
+  --color-text: #555555;
+  --background: #ffffff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--color-text);
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.nav-link {
+  position: relative;
+  padding-bottom: 4px;
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-accent);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0e63ad;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--color-primary);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.font-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+.max-w-container {
+  max-width: 1200px;
+}
