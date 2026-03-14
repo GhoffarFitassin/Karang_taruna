@@ -1,27 +1,29 @@
+import { galleryImages } from "@/img/gallery";
+
 const galleryItems = [
   {
-    img: "https://images.unsplash.com/photo-1544928147-79a2dbc1f389?auto=format&fit=crop&q=80&w=800",
-    title: "Bakti Sosial",
+    img: galleryImages.image1,
+    title: "Pagentan Holiday Festival 1",
     span: false,
   },
   {
-    img: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800",
-    title: "Musyawarah Pemuda",
+    img: galleryImages.image2,
+    title: "Pagentan Holiday Festival 2",
     span: false,
   },
   {
-    img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&q=80&w=800",
-    title: "Peringatan Hari Kemerdekaan",
+    img: galleryImages.image3,
+    title: "Pagentan Holiday Festival 2",
     span: false,
   },
   {
-    img: "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&q=80&w=1200",
-    title: "Program Penghijauan",
+    img: galleryImages.image4,
+    title: "Pagentan Holiday Festival 3",
     span: true,
   },
   {
-    img: "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=800",
-    title: "Pelatihan UMKM",
+    img: galleryImages.image5,
+    title: "Pasar Malam",
     span: false,
   },
 ];
